@@ -14,7 +14,7 @@ function App() {
 		<LanguageProvider>
 			<LocationProvider>
 				<LocationRangeProvider>
-					<BrowserRouter>
+					<BrowserRouter basename="/Farmer-Market">
 						<Routes>
 							<Route path="/" element={<Landing />} />
 							<Route path="/login" element={<Login />} />
